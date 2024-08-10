@@ -32,6 +32,19 @@ namespace ApontamentoVs2.Infrastructure
                 .WithMany()
                 .HasForeignKey("_projectId")
                 .HasConstraintName("FK_Appointment_Project");
+            modelBuilder.Entity<Domain.Appointment>()
+                .Property<Guid>("_userId")
+                .UsePropertyAccessMode(PropertyAccessMode.Field)
+                .HasColumnName("UserId")
+                .IsRequired();
+
+            modelBuilder.Entity<Domain.Appointment>()
+                .Ignore(x => x.User)
+                .HasOne<Domain.User>()
+                .WithMany()
+                .HasForeignKey("_userId")
+                .HasConstraintName("FK_Appointment_User");
+
         }
     }
 }

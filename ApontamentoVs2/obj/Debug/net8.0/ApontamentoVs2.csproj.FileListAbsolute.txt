@@ -135,3 +135,4 @@ C:\Users\luiz.rodrigues\source\repos\ApontamentoVs2\ApontamentoVs2\obj\Debug\net
 C:\Users\luiz.rodrigues\source\repos\ApontamentoVs2\ApontamentoVs2\obj\Debug\net8.0\ApontamentoVs2.pdb
 C:\Users\luiz.rodrigues\source\repos\ApontamentoVs2\ApontamentoVs2\obj\Debug\net8.0\ApontamentoVs2.genruntimeconfig.cache
 C:\Users\luiz.rodrigues\source\repos\ApontamentoVs2\ApontamentoVs2\obj\Debug\net8.0\ref\ApontamentoVs2.dll
+C:\Users\luiz.rodrigues\source\repos\ApontamentoVs2\ApontamentoVs2\obj\Debug\net8.0\ApontamentoVs2.sourcelink.json

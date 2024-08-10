@@ -4,12 +4,11 @@
     {
         private User() { }
 
-        public User(string name, string email, string password, ICollection<Project> projects)
+        public User(string name, string email, string password)
         {
             Name = name;
             Email = email;
             Password = password;
-            Projects = projects;
         }
 
         public string Name { get; set; }
