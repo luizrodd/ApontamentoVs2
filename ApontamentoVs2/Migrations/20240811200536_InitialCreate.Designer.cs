@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApontamentoVs2.Migrations
 {
     [DbContext(typeof(ApplicationDataContext))]
-    [Migration("20240810182531_InitialCreate")]
+    [Migration("20240811200536_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -31,10 +31,6 @@ namespace ApontamentoVs2.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("EndTime")
                         .HasColumnType("datetime2");
 
@@ -42,12 +38,16 @@ namespace ApontamentoVs2.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("_projectId")
-                        .HasColumnType("uniqueidentifier")
-                        .HasColumnName("ProjectId");
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("_userId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
                     b.HasIndex("_projectId");
+
+                    b.HasIndex("_userId");
 
                     b.ToTable("Appointments");
                 });
@@ -62,12 +62,7 @@ namespace ApontamentoVs2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Projects");
                 });
@@ -78,15 +73,7 @@ namespace ApontamentoVs2.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -97,24 +84,21 @@ namespace ApontamentoVs2.Migrations
 
             modelBuilder.Entity("ApontamentoVs2.Domain.Appointment", b =>
                 {
-                    b.HasOne("ApontamentoVs2.Domain.Project", null)
+                    b.HasOne("ApontamentoVs2.Domain.Project", "Task")
                         .WithMany()
                         .HasForeignKey("_projectId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_Appointment_Project");
-                });
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-            modelBuilder.Entity("ApontamentoVs2.Domain.Project", b =>
-                {
-                    b.HasOne("ApontamentoVs2.Domain.User", null)
-                        .WithMany("Projects")
-                        .HasForeignKey("UserId");
-                });
+                    b.HasOne("ApontamentoVs2.Domain.User", "User")
+                        .WithMany()
+                        .HasForeignKey("_userId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-            modelBuilder.Entity("ApontamentoVs2.Domain.User", b =>
-                {
-                    b.Navigation("Projects");
+                    b.Navigation("Task");
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

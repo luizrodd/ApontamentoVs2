@@ -1,9 +1,7 @@
-﻿using ApontamentoVs2.Controllers.Requests;
-using ApontamentoVs2.Domain;
-using ApontamentoVs2.Infrastructure;
+﻿using ApontamentoVs2.Application.Commands;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace ApontamentoVs2.Controllers
 {
@@ -11,36 +9,21 @@ namespace ApontamentoVs2.Controllers
     [ApiController]
     public class AppointmentsController : ControllerBase
     {
-        private readonly ApplicationDataContext _context;
+        private IMediator _mediator;
 
-        public AppointmentsController(ApplicationDataContext context)
+        public AppointmentsController(IMediator mediator)
         {
-            _context = context;
+            _mediator = mediator;
         }
 
-        // GET: api/Appointments
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Appointment>>> GetAppointments()
-        {
-            return await _context.Appointments.ToListAsync();
-        }
-        // POST: api/Appointments
         [HttpPost]
-        public async Task<ActionResult<Appointment>> PostAppointment(AppointmentRequest appointmentRequests)
+        public async Task<IActionResult> CreateAppointment([FromBody] CreateAppointmentCommand command)
         {
-            var userID = "";
-            var appointment = new Appointment(appointmentRequests.ProjectId,
-                appointmentRequests.UserID,
-                appointmentRequests.StartTime, appointmentRequests.EndTime,
-                appointmentRequests.Description);
-
-            _context.Appointments.Add(appointment);
-            await _context.SaveChangesAsync();
-
-            return Ok();
-
+            command.ProjectId = new Guid("D8FD791F-4EA9-43D0-8FEA-40A0E52F7032");
+            command.UserId = new Guid("3CF83033-D023-428A-8E85-8D0C538B709D");
+            var result = await _mediator.Send(command);
+            return Ok(result);
         }
 
-   
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {}
+    "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {
+    "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
+        "projectUniqueName": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
         "projectName": "ApontamentoVs2",
-        "projectPath": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
-        "packagesPath": "C:\\Users\\luiz.rodrigues\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\obj\\",
+        "projectPath": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
+        "packagesPath": "C:\\Users\\luizb\\.nuget\\packages\\",
+        "outputPath": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luiz.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luizb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -89,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
