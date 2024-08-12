@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\rules.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\domain\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -36,10 +40,24 @@
               "RelativeDocumentMoniker": "ApontamentoVs2\\rules.json",
               "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\rules.json",
               "RelativeToolTip": "ApontamentoVs2\\rules.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-12T17:42:57.544Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rule.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Rule.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\Rule.cs",
+              "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Rule.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Domain\\Rule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T18:21:50.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,14 +67,14 @@
               "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\AppointmentValidator.cs",
               "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\AppointmentValidator.cs",
               "RelativeToolTip": "ApontamentoVs2\\Domain\\AppointmentValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwEwAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T16:52:10.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "ApontamentoVs2\\Controllers\\AppointmentsController.cs",
@@ -64,7 +82,8 @@
               "RelativeToolTip": "ApontamentoVs2\\Controllers\\AppointmentsController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T16:02:54.718Z"
+              "WhenOpened": "2024-08-12T16:02:54.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,9 +93,10 @@
               "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\Appointment.cs",
               "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
               "RelativeToolTip": "ApontamentoVs2\\Domain\\Appointment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:54:53.409Z"
+              "WhenOpened": "2024-08-01T20:54:53.409Z",
+              "EditorCaption": ""
             }
           ]
         }

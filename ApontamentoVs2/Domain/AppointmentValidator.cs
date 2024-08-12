@@ -24,6 +24,12 @@ namespace ApontamentoVs2.Domain
                     case "duration":
                         ValidateDurationRule(appointment, rule);
                         break;
+                    case "maxDailyHours":
+                        ValidateMaxDailyHoursRule(appointment, rule);
+                        break;
+                    case "workHours":
+                        ValidateWorkHoursRule(appointment, rule);
+                        break;
                     default:
                         throw new InvalidOperationException($"Tipo de regra desconhecido: {rule.Type}");
                 }
@@ -50,6 +56,35 @@ namespace ApontamentoVs2.Domain
             var duration = endTime - startTime;
 
             if (rule.Operator == "minDuration" && duration.TotalMinutes < rule.Duration)
+            {
+                throw new InvalidOperationException(rule.ErrorMessage);
+            }
+        }
+
+        private void ValidateMaxDailyHoursRule(Appointment appointment, Rule rule)
+        {
+            var appointmentType = typeof(Appointment);
+            var startTime = (DateTime)appointmentType.GetProperty("StartTime").GetValue(appointment);
+            var endTime = (DateTime)appointmentType.GetProperty("EndTime").GetValue(appointment);
+            var totalHours = (endTime - startTime).TotalHours;
+
+            if (totalHours > rule.MaxHours)
+            {
+                throw new InvalidOperationException(rule.ErrorMessage);
+            }
+        }
+
+        private void ValidateWorkHoursRule(Appointment appointment, Rule rule)
+        {
+            var appointmentType = typeof(Appointment);
+            var timeValue = (DateTime)appointmentType.GetProperty(rule.Field).GetValue(appointment);
+            var timeOnlyValue = timeValue.TimeOfDay;
+
+            if (rule.Operator == "start" && timeOnlyValue < TimeSpan.Parse(rule.Start))
+            {
+                throw new InvalidOperationException(rule.ErrorMessage);
+            }
+            if (rule.Operator == "end" && timeOnlyValue > TimeSpan.Parse(rule.End))
             {
                 throw new InvalidOperationException(rule.ErrorMessage);
             }

@@ -15,6 +15,28 @@
       "operator": "minDuration",
       "duration": 30,
       "errorMessage": "A duração mínima do apontamento deve ser de 30 minutos."
+    },
+    {
+      "name": "ValidateMaxDailyHours",
+      "type": "maxDailyHours",
+      "maxHours": 8,
+      "errorMessage": "As horas diárias não devem exceder 8 horas."
+    },
+    {
+      "name": "ValidateWorkHoursStart",
+      "type": "workHours",
+      "field": "StartTime",
+      "operator": "start",
+      "start": "09:00",
+      "errorMessage": "O apontamento deve começar após as 09:00."
+    },
+    {
+      "name": "ValidateWorkHoursEnd",
+      "type": "workHours",
+      "field": "EndTime",
+      "operator": "end",
+      "end": "18:00",
+      "errorMessage": "O apontamento deve terminar antes das 18:00."
     }
   ]
 }
