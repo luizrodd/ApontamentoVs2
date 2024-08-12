@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\",
+  "WorkspaceRootPath": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\domain\\appointmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\appointmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\rules.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\rules.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\infrastructure\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\infrastructure\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\felipe.ribeiro\\desktop\\nova pasta\\apontamentovs2\\apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\domain\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,98 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rules.json",
+              "DocumentMoniker": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\rules.json",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\rules.json",
+              "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\rules.json",
+              "RelativeToolTip": "ApontamentoVs2\\rules.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T17:42:57.544Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\appsettings.json",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\appsettings.json",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\appsettings.json",
-              "RelativeToolTip": "ApontamentoVs2\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-10T15:24:07.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Program.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Program.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Program.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Title": "AppointmentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\AppointmentValidator.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\AppointmentValidator.cs",
+              "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\AppointmentValidator.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Domain\\AppointmentValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T15:24:05.11Z",
+              "WhenOpened": "2024-08-12T16:52:10.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T15:13:20.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T16:02:54.718Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
               "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\Appointment.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
+              "ToolTip": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
               "RelativeToolTip": "ApontamentoVs2\\Domain\\Appointment.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAIAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T20:54:53.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\User.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\User.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Domain\\User.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAYwAYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:54:48.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Project.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\Project.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Project.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Domain\\Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:54:43.519Z"
             }
           ]
         }

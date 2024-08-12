@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "name": "ValidateStartBeforeEnd",
+      "type": "comparison",
+      "field": "StartTime",
+      "operator": "lessThan",
+      "compareTo": "EndTime",
+      "errorMessage": "A data de início deve ser anterior à data de término."
+    },
+    {
+      "name": "ValidateMinimumDuration",
+      "type": "duration",
+      "field": "StartTime",
+      "operator": "minDuration",
+      "duration": 30,
+      "errorMessage": "A duração mínima do apontamento deve ser de 30 minutos."
+    }
+  ]
+}

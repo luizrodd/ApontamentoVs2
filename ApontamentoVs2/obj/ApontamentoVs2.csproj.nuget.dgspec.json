@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {}
+    "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {}
   },
   "projects": {
-    "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {
+    "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
+        "projectUniqueName": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
         "projectName": "ApontamentoVs2",
-        "projectPath": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
-        "packagesPath": "C:\\Users\\luizb\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\obj\\",
+        "projectPath": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\ApontamentoVs2.csproj",
+        "packagesPath": "C:\\Users\\felipe.ribeiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felipe.ribeiro\\Desktop\\Nova pasta\\ApontamentoVs2\\ApontamentoVs2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\luizb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felipe.ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,6 +78,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -98,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
