@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApontamentoVs2.Migrations
 {
     [DbContext(typeof(ApplicationDataContext))]
-    [Migration("20240811200536_InitialCreate")]
+    [Migration("20240812183801_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -30,6 +30,9 @@ namespace ApontamentoVs2.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("EndTime")
                         .HasColumnType("datetime2");
@@ -84,7 +87,7 @@ namespace ApontamentoVs2.Migrations
 
             modelBuilder.Entity("ApontamentoVs2.Domain.Appointment", b =>
                 {
-                    b.HasOne("ApontamentoVs2.Domain.Project", "Task")
+                    b.HasOne("ApontamentoVs2.Domain.Project", "Project")
                         .WithMany()
                         .HasForeignKey("_projectId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -96,7 +99,7 @@ namespace ApontamentoVs2.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Task");
+                    b.Navigation("Project");
 
                     b.Navigation("User");
                 });

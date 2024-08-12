@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApontamentoVs2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aba9e8e15f7284220a6becd87467057ca45aa368")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ab49c084d7324f0359a3cffaa31c97482ade334")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApontamentoVs2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApontamentoVs2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

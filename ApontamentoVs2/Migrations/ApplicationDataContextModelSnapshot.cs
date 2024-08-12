@@ -28,6 +28,9 @@ namespace ApontamentoVs2.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("EndTime")
                         .HasColumnType("datetime2");
 
@@ -81,7 +84,7 @@ namespace ApontamentoVs2.Migrations
 
             modelBuilder.Entity("ApontamentoVs2.Domain.Appointment", b =>
                 {
-                    b.HasOne("ApontamentoVs2.Domain.Project", "Task")
+                    b.HasOne("ApontamentoVs2.Domain.Project", "Project")
                         .WithMany()
                         .HasForeignKey("_projectId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -93,7 +96,7 @@ namespace ApontamentoVs2.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Task");
+                    b.Navigation("Project");
 
                     b.Navigation("User");
                 });

@@ -19,7 +19,7 @@ namespace ApontamentoVs2.Infrastructure
                 entity.Property(e => e.StartTime).IsRequired();
                 entity.Property(e => e.EndTime).IsRequired();
 
-                entity.HasOne(e => e.Task)
+                entity.HasOne(e => e.Project)
                       .WithMany()
                       .HasForeignKey(e => e._projectId)
                       .OnDelete(DeleteBehavior.Restrict);
