@@ -19,5 +19,6 @@
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public DateTime CreatedAt { get; set; }
+        public bool IsApproved { get; set; }
     }
 }

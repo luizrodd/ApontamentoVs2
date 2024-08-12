@@ -30,6 +30,13 @@ namespace ApontamentoVs2.Infrastructure
                       .OnDelete(DeleteBehavior.Restrict);
             });
 
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Name).IsRequired();
+                entity.Property(e => e.Type).IsRequired();
+            });
+
         }
     }
 }

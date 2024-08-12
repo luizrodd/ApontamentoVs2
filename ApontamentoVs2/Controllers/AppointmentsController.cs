@@ -19,8 +19,8 @@ namespace ApontamentoVs2.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateAppointment([FromBody] CreateAppointmentCommand command)
         {
-            command.ProjectId = new Guid("D8FD791F-4EA9-43D0-8FEA-40A0E52F7032");
-            command.UserId = new Guid("3CF83033-D023-428A-8E85-8D0C538B709D");
+            command.ProjectId = new Guid("F024466C-6AB0-4879-A476-3AD9D1CCD86C");
+            command.UserId = new Guid("D0F83055-0E4B-4876-A817-F1A93ABBD5D9");
             var result = await _mediator.Send(command);
             return Ok(result);
         }

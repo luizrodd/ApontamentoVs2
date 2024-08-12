@@ -17,7 +17,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+var jsonRulesPath = Path.Combine(Directory.GetCurrentDirectory(), "Rules.json");
+builder.Services.AddScoped(sp => new AppointmentRuleEngine(jsonRulesPath, sp.GetRequiredService<IAppointmentRepository>()));
 builder.Services.AddTransient<IAppointmentRepository, AppointmentRepository>();
+builder.Services.AddTransient<IUserRepository, UserRepository>();   
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 
 

@@ -1,0 +1,42 @@
+[
+  {
+    "UserType": "CLT",
+    "Rules": [
+      {
+        "Field": "StartTime",
+        "Condition": "greater_than",
+        "Value": "08:00:00"
+      },
+      {
+        "Field": "EndTime",
+        "Condition": "less_than",
+        "Value": "18:00:00"
+      },
+      {
+        "Field": "Duration",
+        "Condition": "less_than_or_equal",
+        "Value": "08:00:00"
+      }
+    ]
+  },
+  {
+    "UserType": "Estagiario",
+    "Rules": [
+      {
+        "Field": "StartTime",
+        "Condition": "greater_than",
+        "Value": "09:00:00"
+      },
+      {
+        "Field": "EndTime",
+        "Condition": "less_than",
+        "Value": "17:00:00"
+      },
+      {
+        "Field": "Duration",
+        "Condition": "less_than_or_equal",
+        "Value": "06:00:00"
+      },
+    ]
+  }
+]

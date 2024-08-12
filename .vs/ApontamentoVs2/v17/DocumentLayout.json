@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\",
+  "WorkspaceRootPath": "C:\\github\\ApontamentoVs2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\github\\apontamentovs2\\apontamentovs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\infrastructure\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\infrastructure\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\github\\apontamentovs2\\apontamentovs2\\domain\\appointmentruleengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\appointmentruleengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\github\\apontamentovs2\\apontamentovs2\\application\\commands\\createappointmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\application\\commands\\createappointmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\domain\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\github\\apontamentovs2\\apontamentovs2\\repository\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\repository\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\users\\luiz.rodrigues\\source\\repos\\apontamentovs2\\apontamentovs2\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|c:\\github\\apontamentovs2\\apontamentovs2\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C66B81-75C2-44C0-A0CC-B029BA9FB908}|ApontamentoVs2\\ApontamentoVs2.csproj|solutionrelative:apontamentovs2\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,78 +50,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\appsettings.json",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\appsettings.json",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\appsettings.json",
-              "RelativeToolTip": "ApontamentoVs2\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-10T15:24:07.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Program.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Program.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Program.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAcAAAAhAAAA",
+              "DocumentIndex": 4,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Repository\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Repository\\AppointmentRepository.cs",
+              "ToolTip": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Repository\\AppointmentRepository.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Repository\\AppointmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T15:24:05.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Infrastructure\\ApplicationDataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T15:13:20.801Z",
+              "WhenOpened": "2024-08-12T20:53:44.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\Appointment.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Appointment.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Domain\\Appointment.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAIAAAAcAAAA",
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Repository\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Repository\\IAppointmentRepository.cs",
+              "ToolTip": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Repository\\IAppointmentRepository.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Repository\\IAppointmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:54:53.409Z"
+              "WhenOpened": "2024-08-12T20:53:34.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\User.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\User.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Domain\\User.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAYwAYAAAAeAAAA",
+              "DocumentIndex": 1,
+              "Title": "AppointmentRuleEngine.cs",
+              "DocumentMoniker": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Domain\\AppointmentRuleEngine.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\AppointmentRuleEngine.cs",
+              "ToolTip": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Domain\\AppointmentRuleEngine.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Domain\\AppointmentRuleEngine.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDcAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:54:48.151Z"
+              "WhenOpened": "2024-08-12T20:41:54.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Project.cs",
-              "RelativeDocumentMoniker": "ApontamentoVs2\\Domain\\Project.cs",
-              "ToolTip": "C:\\Users\\luiz.rodrigues\\source\\repos\\ApontamentoVs2\\ApontamentoVs2\\Domain\\Project.cs",
-              "RelativeToolTip": "ApontamentoVs2\\Domain\\Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Program.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Program.cs",
+              "ToolTip": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Program.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T20:54:43.519Z"
+              "WhenOpened": "2024-08-12T20:36:15.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateAppointmentCommandHandler.cs",
+              "DocumentMoniker": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Application\\Commands\\CreateAppointmentCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApontamentoVs2\\Application\\Commands\\CreateAppointmentCommandHandler.cs",
+              "ToolTip": "C:\\github\\ApontamentoVs2\\ApontamentoVs2\\Application\\Commands\\CreateAppointmentCommandHandler.cs",
+              "RelativeToolTip": "ApontamentoVs2\\Application\\Commands\\CreateAppointmentCommandHandler.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvw8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T20:35:23.342Z",
+              "EditorCaption": ""
             }
           ]
         }

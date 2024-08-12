@@ -277,3 +277,4 @@ C:\github\ApontamentoVs2\ApontamentoVs2\obj\Debug\net8.0\ref\ApontamentoVs2.dll
 C:\github\ApontamentoVs2\ApontamentoVs2\bin\Debug\net8.0\MediatR.dll
 C:\github\ApontamentoVs2\ApontamentoVs2\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\github\ApontamentoVs2\ApontamentoVs2\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\github\ApontamentoVs2\ApontamentoVs2\bin\Debug\net8.0\Rules.json
