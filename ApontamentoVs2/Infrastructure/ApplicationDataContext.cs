@@ -18,6 +18,7 @@ namespace ApontamentoVs2.Infrastructure
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.StartTime).IsRequired();
                 entity.Property(e => e.EndTime).IsRequired();
+                entity.Property(e => e.CreatedAt).IsRequired();
 
                 entity.HasOne(e => e.Task)
                       .WithMany()
