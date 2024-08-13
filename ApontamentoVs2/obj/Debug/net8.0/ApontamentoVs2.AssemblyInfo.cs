@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApontamentoVs2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec31f22715f9caddebe03e592274b57cc3c217e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61b66b2e48daf67725d05b10c37f01783712ac1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApontamentoVs2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApontamentoVs2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
